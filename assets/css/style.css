@@ -5,11 +5,12 @@
 }
 
 header {
-    margin: 5vh;
+    margin: 0 auto;
+    max-width: 50rem;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     font-size: clamp(40px, 4rem, 80px);
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(40, 119, 206, 1) 21%, rgba(79, 255, 87, 1) 40%, rgba(252, 253, 44, 1) 61%, rgba(252, 69, 69, 1) 81%, rgba(252, 69, 165, 1) 100%);
@@ -40,4 +41,25 @@ ol {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    color: rgb(255, 253, 250);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .7rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.521);
+    transition: background-color .5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(47, 201, 1, 0.774);
 }
